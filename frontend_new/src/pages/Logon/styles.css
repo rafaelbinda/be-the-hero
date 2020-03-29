@@ -1,0 +1,32 @@
+h1 {
+    color: #7159ca;
+}
+
+.logon-container {
+    width: 100%;                /*Largura de 100%*/
+    max-width: 1120px;          /*com largura máxima de 1120*/
+    height: 100vh;              /*Altura de 100%*/
+    margin: 0 auto;             /*Faz com que o conteúdo fique sempre centralizado na tela*/
+
+    display: flex;              /*Muito utilizado Flex-Box Layout hoje em dia*/
+    align-items: center;        /*Alinha os itens verticalmente no centro*/
+    justify-content: space-between;    /*Alinha os itens lado a lado*/
+
+}
+
+.logon-container section.form{
+    width: 100%;               /*Largura de 100%*/
+    max-width: 350px;          /*com largura máxima de 350*/
+    height: 100vh;             /*Altura de 100%*/
+    margin-right: 30px;        /*Distancia da logo*/
+}
+
+.logon-container section.form form{
+    margin-top: 100px;              /*Distancia da logo*/
+}
+
+.logon-container section.form form h1{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
